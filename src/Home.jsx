@@ -8,7 +8,7 @@ const Home = () => {
             <div className="flex flex-col md:flex-row items-center justify-center space-y-6 md:space-y-0 md:space-x-8">
                 <div className="flex flex-col items-center">
                     <img
-                        src="/textures/preFoto(43).jpg"
+                        src="./textures/preFoto(43).jpg"
                         alt="Pré"
                         onClick={() => navigate("/j-a/Pre")}
                         className="w-40 md:w-60 cursor-pointer rounded-lg shadow-md hover:opacity-80 transition"
@@ -17,7 +17,7 @@ const Home = () => {
                 </div>
                 <div className="flex flex-col items-center">
                     <img
-                        src="/textures/Foto(504).jpg"
+                        src="./textures/Foto(504).jpg"
                         alt="Casamento"
                         onClick={() => navigate("/j-a/Casamento")}
                         className="w-40 md:w-60 cursor-pointer rounded-lg shadow-md hover:opacity-80 transition"

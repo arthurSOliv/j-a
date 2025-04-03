@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 
 const TOTAL_IMAGES = 1207;
-const IMAGE_PATH = "/textures/Foto";
+const IMAGE_PATH = "./textures/Foto";
 
 const Gallery = () => {
   const [loadedImages, setLoadedImages] = useState(30); // Initial batch
