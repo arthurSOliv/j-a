@@ -29,7 +29,7 @@ export const UI = () => {
           className="pointer-events-auto mt-10 ml-10"
           href=""
       >
-          <img className="w-20" src="/textures/logo.png" />
+          <img className="w-20" src="./textures/logo.png" />
       </a>
       </main>
 
