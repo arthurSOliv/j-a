@@ -10,7 +10,7 @@ const Home = () => {
                     <img
                         src="/textures/preFoto(43).jpg"
                         alt="Pré"
-                        onClick={() => navigate("/Pre")}
+                        onClick={() => navigate("/j-a/Pre")}
                         className="w-40 md:w-60 cursor-pointer rounded-lg shadow-md hover:opacity-80 transition"
                     />
                     <h2 className="mt-2 text-lg font-semibold">Pré Wedding</h2>
@@ -19,7 +19,7 @@ const Home = () => {
                     <img
                         src="/textures/Foto(504).jpg"
                         alt="Casamento"
-                        onClick={() => navigate("/Casamento")}
+                        onClick={() => navigate("/j-a/Casamento")}
                         className="w-40 md:w-60 cursor-pointer rounded-lg shadow-md hover:opacity-80 transition"
                     />
                     <h2 className="mt-2 text-lg font-semibold">Casamento</h2>
@@ -27,7 +27,7 @@ const Home = () => {
             </div>
             <button
                 class="bg-transparent hover:bg-red-400 text-red-700 font-semibold hover:text-white py-2 px-4 border border-red-500 hover:border-transparent rounded"
-                onClick={() => navigate("/gallery?category=nature")}
+                onClick={() => navigate("/j-a/gallery?category=nature")}
             >
                 Todas as fotos
             </button>

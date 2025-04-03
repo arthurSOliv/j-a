@@ -8,10 +8,10 @@ import Gallery from "../pages/Gallery/Gallery";
 
 const AppRoutes = () => (
     <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/pre" element={<Pre />} />
-        <Route path="/casamento" element={<Casamento />} />
-        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/j-a/" element={<Home />} />
+        <Route path="/j-a/pre" element={<Pre />} />
+        <Route path="/j-a/casamento" element={<Casamento />} />
+        <Route path="/j-a/gallery" element={<Gallery />} />
     </Routes>
 )
 
